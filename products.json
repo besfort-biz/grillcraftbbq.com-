@@ -1,0 +1,248 @@
+{
+  "series": [
+    {
+      "slug": "backyard-hero",
+      "name": "Backyard Hero",
+      "tagline": "3 Models",
+      "badge": "New",
+      "category": "Private Household",
+      "capacity": "6-25kg/Session",
+      "image": "21445d_04bef42151f1478dba5c059c34395710~mv2.webp",
+      "description": "The Backyard Hero series is the perfect entry-level smoker line for private households who want to experience authentic BBQ smoking. With compact footprints and efficient designs, these smokers deliver professional results in a package that fits any backyard.",
+      "variants": [
+        {"name": "BYH Cadet XS", "slug": "byh-cadet-xs", "capacity": "Compact", "image": "21445d_d202c77c2bcc4af9a769f84b6d40f396~mv2.jpg"},
+        {"name": "BYH Junior XXS", "slug": "byh-junior-xxs", "capacity": "Compact", "image": "21445d_5a975152181a48af9cf5e268d7b320f9~mv2.webp"}
+      ]
+    },
+    {
+      "slug": "gf-serie",
+      "name": "GF Serie",
+      "tagline": "4 Models",
+      "badge": "Best Seller",
+      "category": "Gastronomy / Commercial",
+      "capacity": "30-110kg/Session",
+      "image": "21445d_42cdecb2a93c464d8d6d7373a510bf84~mv2.png",
+      "description": "The GF Serie is our best-selling line of gravity feed smokers designed for demanding commercial environments. With capacities ranging from 30 to 110kg per session, these units deliver consistent, authentic smoke flavor at scale.",
+      "variants": []
+    },
+    {
+      "slug": "bfb-rf",
+      "name": "BFB RF Serie",
+      "tagline": "4 Models",
+      "badge": "",
+      "category": "Private / Commercial",
+      "capacity": "8-35kg/Session",
+      "image": "21445d_88663e4cc50e471c8886971130d929ef~mv2.jpg",
+      "description": "The BFB RF Serie features reverse flow technology for even heat distribution and moisture retention. Perfect for both private enthusiasts and commercial operators who demand consistency.",
+      "variants": []
+    },
+    {
+      "slug": "b-oven",
+      "name": "Brot Holzofen &ndash; B Oven",
+      "tagline": "Bread &amp; Roasting Oven",
+      "badge": "",
+      "category": "Private / Commercial",
+      "capacity": "2-10kg/Session",
+      "image": "21445d_e2a522308e394b4da2f323c9e7194cd0~mv2.webp",
+      "description": "The B Oven is a traditional wood-fired bread and roasting oven that brings the authentic taste of wood-baked bread and roasted meats to your kitchen. Compact enough for private use yet capable enough for light commercial applications.",
+      "variants": [
+        {"name": "B Oven S", "slug": "b-oven-s", "capacity": "2-10kg/Session", "image": "21445d_cb3aac6da8de4791bf3a48690255d6d7~mv2.jpg"}
+      ]
+    },
+    {
+      "slug": "d-oven",
+      "name": "D Oven",
+      "tagline": "5 Models",
+      "badge": "",
+      "category": "Private / Commercial",
+      "capacity": "12-80kg/Session",
+      "image": "21445d_0e668d686cc9428eb509f96a60bfc42c~mv2.jpg",
+      "description": "The D Oven series offers a versatile range of wood-fired ovens suited for everything from private gatherings to professional catering operations. Each model is handcrafted for optimal heat retention and distribution.",
+      "variants": []
+    },
+    {
+      "slug": "asado-grill",
+      "name": "ASADO Grill",
+      "tagline": "3 Models",
+      "badge": "Best Seller",
+      "category": "Private / Commercial",
+      "capacity": "4-60kg/Session",
+      "image": "21445d_98fafbae7f1e4ff0884e2aa12e1903cd~mv2.jpg",
+      "description": "The ASADO Grill series combines traditional Argentine asado grilling with modern design. These mobile fire pits are perfect for both intimate gatherings and large-scale events.",
+      "variants": [
+        {"name": "ASADO Grill Mobile Fire Pit SIZE S", "slug": "asado-grill-s", "capacity": "4-60kg/Session", "image": "21445d_98fafbae7f1e4ff0884e2aa12e1903cd~mv2.jpg"}
+      ]
+    },
+    {
+      "slug": "offset-bbq",
+      "name": "Offset BBQ",
+      "tagline": "2 Models",
+      "badge": "",
+      "category": "Commercial / Professional",
+      "capacity": "10-210kg/Session",
+      "image": "21445d_21b9b58c893f4fa4ad1d73285b8fb7cc~mv2.jpg",
+      "description": "Professional-grade offset smokers designed for serious BBQ operations. With capacities from 10 to 210kg per session, these units are built for high-volume commercial use where consistency and flavor are paramount.",
+      "variants": [
+        {"name": "Offset BBQ Grill SIZE S", "slug": "offset-bbq-grill-s", "capacity": "10-50kg/Session", "image": "21445d_21b9b58c893f4fa4ad1d73285b8fb7cc~mv2.jpg"},
+        {"name": "Offset BBQ Grill SIZE L", "slug": "offset-bbq-grill-l", "capacity": "50-210kg/Session", "image": "21445d_1bf4d78ab1004cbf80628478e18c7fdd~mv2.png"}
+      ]
+    },
+    {
+      "slug": "nyp-offset",
+      "name": "NYP Offset BBQ",
+      "tagline": "2 Models",
+      "badge": "",
+      "category": "Private / Commercial",
+      "capacity": "8-60kg/Session",
+      "image": "21445d_04c5a954f52846448a0cfdf18a9eb23d~mv2.webp",
+      "description": "The NYP Offset BBQ series brings professional offset smoking within reach of serious home enthusiasts and small commercial operations. Compact yet powerful, these smokers deliver authentic offset flavor.",
+      "variants": [
+        {"name": "NYP BBQ Regular Offset XS", "slug": "nyp-regular-offset-xs", "capacity": "8-20kg/Session", "image": "21445d_04c5a954f52846448a0cfdf18a9eb23d~mv2.webp"},
+        {"name": "NYP BBQ Regular Offset S", "slug": "nyp-regular-offset-s", "capacity": "20-60kg/Session", "image": "21445d_1f3c5563b9264be6af2e20f5128edbe2~mv2.webp"}
+      ]
+    },
+    {
+      "slug": "whole-hog",
+      "name": "Whole Hog",
+      "tagline": "Monster Offset",
+      "badge": "",
+      "category": "Commercial / Professional",
+      "capacity": "20-250kg/Session",
+      "image": "21445d_6930657f485146caa0da049ee2d1748a~mv2.jpg",
+      "description": "The Whole Hog is our largest offset smoker, designed for serious commercial operators who need massive capacity without compromising on flavor. Capable of smoking whole hogs, multiple briskets, or large quantities of ribs in a single session.",
+      "variants": [
+        {"name": "Whole Hog BBQ Grill", "slug": "whole-hog-monster", "capacity": "20-250kg/Session", "image": "21445d_6930657f485146caa0da049ee2d1748a~mv2.jpg"}
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "slug": "compact-smoker-xxs",
+      "name": "BBQ Pit Box Compact Smoker &ndash; Size XXS",
+      "category": "Gastronomy / Private Household",
+      "capacity": "Compact",
+      "image": "21445d_1f203d16ebd84bc197443a92aab88b29~mv2.jpg",
+      "description": "The Compact Smoker XXS is a space-efficient smoking solution perfect for small kitchens, pop-up restaurants, and private households with limited space."
+    },
+    {
+      "slug": "compact-smoker-xxs-plus",
+      "name": "BBQ Pit Box Compact Smoker &ndash; Size XXS Plus",
+      "category": "Gastronomy",
+      "capacity": "Compact",
+      "image": "21445d_fb5d55edbf3a413b8291d8928ef38c54~mv2.jpg",
+      "description": "The Compact Smoker XXS Plus offers additional capacity over the XXS model while maintaining a compact footprint."
+    },
+    {
+      "slug": "compact-smoker-xs",
+      "name": "BBQ Pit Box Compact Smoker &ndash; Size XS",
+      "category": "Gastronomy / Private Household",
+      "capacity": "Small",
+      "image": "21445d_d0c21147abfc4413923a0555319f4163~mv2.jpg",
+      "description": "The Compact Smoker XS bridges the gap between compact and standard capacity, ideal for growing businesses."
+    },
+    {
+      "slug": "compact-smoker-s",
+      "name": "BBQ Pit Box Compact Smoker &ndash; Size S",
+      "category": "Gastronomy",
+      "capacity": "Small",
+      "image": "21445d_abaf08b617c742f7944fca95dfbf1cc6~mv2.jpg",
+      "description": "The Compact Smoker Size S is designed for serious gastronomy operations that need consistent output."
+    },
+    {
+      "slug": "smoker-size-s",
+      "name": "BBQ Pit Box Smoker &ndash; Size S",
+      "category": "Gastronomy / Private Household",
+      "capacity": "Small",
+      "image": "21445d_09eb6048637742279fb0e04881e83037~mv2.jpg",
+      "description": "The BBQ Pit Box Smoker Size S offers versatile smoking capabilities in a mid-sized package."
+    },
+    {
+      "slug": "duck-oven-xs",
+      "name": "BBQ Pit Box Duck Oven &ndash; Size XS",
+      "category": "Gastronomy / Brat und Backöfen",
+      "capacity": "Compact",
+      "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
+      "description": "The Duck Oven XS specializes in duck, poultry, and roasting applications in a compact form."
+    },
+    {
+      "slug": "duck-oven-xs-plus",
+      "name": "Duck Oven &ndash; Size XS Plus",
+      "category": "Brat und Backöfen",
+      "capacity": "Compact",
+      "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
+      "description": "The Duck Oven XS Plus provides additional roasting capacity while maintaining precision temperature control."
+    },
+    {
+      "slug": "duck-oven-s",
+      "name": "Duck Oven &ndash; Size S",
+      "category": "Brat und Backöfen",
+      "capacity": "Small",
+      "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
+      "description": "The Duck Oven Size S is built for medium-volume roasting with consistent, even heat."
+    },
+    {
+      "slug": "duck-oven-m",
+      "name": "Duck Oven &ndash; Size M",
+      "category": "Brat und Backöfen",
+      "capacity": "Medium",
+      "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
+      "description": "The Duck Oven Size M handles higher volumes while maintaining the signature roasting quality."
+    },
+    {
+      "slug": "duck-oven-l",
+      "name": "Duck Oven &ndash; Size L",
+      "category": "Offset BBQ & Grill / Brat und Backöfen",
+      "capacity": "Large",
+      "image": "21445d_2c916d561a7f41c49e104bc5b6eda1b7~mv2.jpg",
+      "description": "The Duck Oven Size L is our largest roasting oven, capable of handling whole pigs and large catering orders."
+    },
+    {
+      "slug": "yakitori-bbq-grill-s",
+      "name": "Yakitori BBQ Grill &ndash; SIZE S",
+      "category": "Gastronomy / Offset BBQ & Grill",
+      "capacity": "Small",
+      "image": "21445d_9805bab527054ce7ab357cd187945ac7~mv2.jpg",
+      "description": "The Yakitori BBQ Grill Size S brings traditional Japanese yakitori grilling to your kitchen or events."
+    },
+    {
+      "slug": "yakitori-bbq-grill-m",
+      "name": "Yakitori BBQ Grill &ndash; SIZE M",
+      "category": "Gastronomy",
+      "capacity": "Medium",
+      "image": "21445d_e1bc5dce777d47b68f0f78d7c329475e~mv2.jpg",
+      "description": "The Yakitori BBQ Grill Size M offers larger capacity for high-volume yakitori service."
+    },
+    {
+      "slug": "yakitori-bbq-grill-l",
+      "name": "Yakitori BBQ Grill &ndash; SIZE L",
+      "category": "Offset BBQ & Grill",
+      "capacity": "Large",
+      "image": "21445d_4d93ecb1811d489fa9f18708b2051d3f~mv2.jpg",
+      "description": "The Yakitori BBQ Grill Size L is built for commercial operations with maximum skewer capacity."
+    },
+    {
+      "slug": "nyp-regular-offset-xs",
+      "name": "NYP BBQ Regular Offset XS",
+      "category": "Private Household / Offset BBQ & Grill",
+      "capacity": "8-20kg/Session",
+      "image": "21445d_04c5a954f52846448a0cfdf18a9eb23d~mv2.webp",
+      "description": "The NYP Regular Offset XS is the entry-level offset smoker for enthusiasts who want authentic offset flavor."
+    },
+    {
+      "slug": "nyp-regular-offset-s",
+      "name": "NYP BBQ Regular Offset S",
+      "category": "Private Household / Offset BBQ & Grill",
+      "capacity": "20-60kg/Session",
+      "image": "21445d_1f3c5563b9264be6af2e20f5128edbe2~mv2.webp",
+      "description": "The NYP Regular Offset S steps up capacity while maintaining precise temperature control."
+    },
+    {
+      "slug": "whole-hog-monster",
+      "name": "Whole Hog BBQ Grill",
+      "category": "Offset BBQ & Grill",
+      "capacity": "20-250kg/Session",
+      "image": "21445d_6930657f485146caa0da049ee2d1748a~mv2.jpg",
+      "description": "The Whole Hog BBQ Grill is our largest offset smoker designed for massive commercial capacity."
+    }
+  ]
+}

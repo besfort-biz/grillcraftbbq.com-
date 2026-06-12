@@ -10,9 +10,20 @@
       "image": "21445d_04bef42151f1478dba5c059c34395710~mv2.webp",
       "description": "The Backyard Hero series is the perfect entry-level smoker line for private households who want to experience authentic BBQ smoking. With compact footprints and efficient designs, these smokers deliver professional results in a package that fits any backyard.",
       "variants": [
-        {"name": "BYH Cadet XS", "slug": "byh-cadet-xs", "capacity": "Compact", "image": "21445d_d202c77c2bcc4af9a769f84b6d40f396~mv2.jpg"},
-        {"name": "BYH Junior XXS", "slug": "byh-junior-xxs", "capacity": "Compact", "image": "21445d_5a975152181a48af9cf5e268d7b320f9~mv2.webp"}
-      ]
+        {
+          "name": "BYH Cadet XS",
+          "slug": "byh-cadet-xs",
+          "capacity": "Compact",
+          "image": "21445d_d202c77c2bcc4af9a769f84b6d40f396~mv2.jpg"
+        },
+        {
+          "name": "BYH Junior XXS",
+          "slug": "byh-junior-xxs",
+          "capacity": "Compact",
+          "image": "21445d_5a975152181a48af9cf5e268d7b320f9~mv2.webp"
+        }
+      ],
+      "description_sq": "Seria Backyard Hero është linja ideale e furrave për familjet private që duan të përjetojnë tymosje autentike BBQ. Me gjurmë kompakte dhe dizajne efikase, këto furra japin rezultate profesionale në një paketë që përshtatet në çdo oborr."
     },
     {
       "slug": "gf-serie",
@@ -23,7 +34,8 @@
       "capacity": "30-110kg/Session",
       "image": "21445d_42cdecb2a93c464d8d6d7373a510bf84~mv2.png",
       "description": "The GF Serie is our best-selling line of gravity feed smokers designed for demanding commercial environments. With capacities ranging from 30 to 110kg per session, these units deliver consistent, authentic smoke flavor at scale.",
-      "variants": []
+      "variants": [],
+      "description_sq": "Seria GF është linja jonë më e shitur e furrave me ushqim nga graviteti, e dizajnuar për ambiente tregtare kërkuese. Me kapacitete nga 30 deri në 110 kg për sesion, këto njësi japin shije të qëndrueshme dhe autentike tymi në shkallë të gjerë."
     },
     {
       "slug": "bfb-rf",
@@ -34,7 +46,8 @@
       "capacity": "8-35kg/Session",
       "image": "21445d_88663e4cc50e471c8886971130d929ef~mv2.jpg",
       "description": "The BFB RF Serie features reverse flow technology for even heat distribution and moisture retention. Perfect for both private enthusiasts and commercial operators who demand consistency.",
-      "variants": []
+      "variants": [],
+      "description_sq": "Seria BFB RF paraqet teknologjinë reverse flow për shpërndarje të barabartë të nxehtësisë dhe ruajtje të lagështirës. E përkryer si për entuziastë privatë ashtu edhe për operatorë tregtarë që kërkojnë qëndrueshmëri."
     },
     {
       "slug": "b-oven",
@@ -46,8 +59,14 @@
       "image": "21445d_e2a522308e394b4da2f323c9e7194cd0~mv2.webp",
       "description": "The B Oven is a traditional wood-fired bread and roasting oven that brings the authentic taste of wood-baked bread and roasted meats to your kitchen. Compact enough for private use yet capable enough for light commercial applications.",
       "variants": [
-        {"name": "B Oven S", "slug": "b-oven-s", "capacity": "2-10kg/Session", "image": "21445d_cb3aac6da8de4791bf3a48690255d6d7~mv2.jpg"}
-      ]
+        {
+          "name": "B Oven S",
+          "slug": "b-oven-s",
+          "capacity": "2-10kg/Session",
+          "image": "21445d_cb3aac6da8de4791bf3a48690255d6d7~mv2.jpg"
+        }
+      ],
+      "description_sq": "B Oven është një furrë tradicionale buke dhe pjekjeje me dru që sjell shijen autentike të bukës së pjekur me dru dhe mishit të pjekur në kuzhinën tuaj. Mjaft kompakte për përdorim privat dhe e aftë për aplikime të lehta tregtare."
     },
     {
       "slug": "d-oven",
@@ -58,7 +77,8 @@
       "capacity": "12-80kg/Session",
       "image": "21445d_0e668d686cc9428eb509f96a60bfc42c~mv2.jpg",
       "description": "The D Oven series offers a versatile range of wood-fired ovens suited for everything from private gatherings to professional catering operations. Each model is handcrafted for optimal heat retention and distribution.",
-      "variants": []
+      "variants": [],
+      "description_sq": "Seria D Oven ofron një gamë të gjithanshme furrash me dru të përshtatshme për çdo gjë nga grumbullimet private deri te operacionet profesionale të kateringut. Çdo model është punuar me dorë për mbajtje dhe shpërndarje optimale të nxehtësisë."
     },
     {
       "slug": "asado-grill",
@@ -70,8 +90,14 @@
       "image": "21445d_98fafbae7f1e4ff0884e2aa12e1903cd~mv2.jpg",
       "description": "The ASADO Grill series combines traditional Argentine asado grilling with modern design. These mobile fire pits are perfect for both intimate gatherings and large-scale events.",
       "variants": [
-        {"name": "ASADO Grill Mobile Fire Pit SIZE S", "slug": "asado-grill-s", "capacity": "4-60kg/Session", "image": "21445d_98fafbae7f1e4ff0884e2aa12e1903cd~mv2.jpg"}
-      ]
+        {
+          "name": "ASADO Grill Mobile Fire Pit SIZE S",
+          "slug": "asado-grill-s",
+          "capacity": "4-60kg/Session",
+          "image": "21445d_98fafbae7f1e4ff0884e2aa12e1903cd~mv2.jpg"
+        }
+      ],
+      "description_sq": "Seria ASADO Grill kombinon pjekjen tradicionale argjentinase asado me dizajn modern. Këto vatra zjarri të lëvizshme janë perfekte si për grumbullime intime ashtu edhe për evente në shkallë të gjerë."
     },
     {
       "slug": "offset-bbq",
@@ -83,9 +109,20 @@
       "image": "21445d_21b9b58c893f4fa4ad1d73285b8fb7cc~mv2.jpg",
       "description": "Professional-grade offset smokers designed for serious BBQ operations. With capacities from 10 to 210kg per session, these units are built for high-volume commercial use where consistency and flavor are paramount.",
       "variants": [
-        {"name": "Offset BBQ Grill SIZE S", "slug": "offset-bbq-grill-s", "capacity": "10-50kg/Session", "image": "21445d_21b9b58c893f4fa4ad1d73285b8fb7cc~mv2.jpg"},
-        {"name": "Offset BBQ Grill SIZE L", "slug": "offset-bbq-grill-l", "capacity": "50-210kg/Session", "image": "21445d_1bf4d78ab1004cbf80628478e18c7fdd~mv2.png"}
-      ]
+        {
+          "name": "Offset BBQ Grill SIZE S",
+          "slug": "offset-bbq-grill-s",
+          "capacity": "10-50kg/Session",
+          "image": "21445d_21b9b58c893f4fa4ad1d73285b8fb7cc~mv2.jpg"
+        },
+        {
+          "name": "Offset BBQ Grill SIZE L",
+          "slug": "offset-bbq-grill-l",
+          "capacity": "50-210kg/Session",
+          "image": "21445d_1bf4d78ab1004cbf80628478e18c7fdd~mv2.png"
+        }
+      ],
+      "description_sq": "Furrat offset të shkallës profesionale të dizajnuara për operacione serioze BBQ. Me kapacitete nga 10 deri në 210 kg për sesion, këto njësi janë ndërtuara për përdorim tregtar me vëllim të lartë ku qëndrueshmëria dhe shija janë parësore."
     },
     {
       "slug": "nyp-offset",
@@ -97,9 +134,22 @@
       "image": "21445d_04c5a954f52846448a0cfdf18a9eb23d~mv2.webp",
       "description": "The NYP Offset BBQ series brings professional offset smoking within reach of serious home enthusiasts and small commercial operations. Compact yet powerful, these smokers deliver authentic offset flavor.",
       "variants": [
-        {"name": "NYP BBQ Regular Offset XS", "slug": "nyp-regular-offset-xs", "capacity": "8-20kg/Session", "image": "21445d_04c5a954f52846448a0cfdf18a9eb23d~mv2.webp"},
-        {"name": "NYP BBQ Regular Offset S", "slug": "nyp-regular-offset-s", "capacity": "20-60kg/Session", "image": "21445d_1f3c5563b9264be6af2e20f5128edbe2~mv2.webp"}
-      ]
+        {
+          "name": "NYP BBQ Regular Offset XS",
+          "slug": "nyp-regular-offset-xs",
+          "capacity": "8-20kg/Session",
+          "image": "21445d_04c5a954f52846448a0cfdf18a9eb23d~mv2.webp",
+          "description_sq": "NYP Regular Offset XS është furra offset hyrëse për entuziastët që duan shije autentike offset."
+        },
+        {
+          "name": "NYP BBQ Regular Offset S",
+          "slug": "nyp-regular-offset-s",
+          "capacity": "20-60kg/Session",
+          "image": "21445d_1f3c5563b9264be6af2e20f5128edbe2~mv2.webp",
+          "description_sq": "NYP Regular Offset S rrit kapacitetin duke ruajtur kontrollin e saktë të temperaturës."
+        }
+      ],
+      "description_sq": "Seria NYP Offset BBQ sjell tymosjen profesionale offset në mundësi të entuziastëve seriozë të shtëpisë dhe operacioneve të vogla tregtare. Kompakte por të fuqishme, këto furra japin shije autentike offset."
     },
     {
       "slug": "whole-hog",
@@ -111,8 +161,15 @@
       "image": "21445d_6930657f485146caa0da049ee2d1748a~mv2.jpg",
       "description": "The Whole Hog is our largest offset smoker, designed for serious commercial operators who need massive capacity without compromising on flavor. Capable of smoking whole hogs, multiple briskets, or large quantities of ribs in a single session.",
       "variants": [
-        {"name": "Whole Hog BBQ Grill", "slug": "whole-hog-monster", "capacity": "20-250kg/Session", "image": "21445d_6930657f485146caa0da049ee2d1748a~mv2.jpg"}
-      ]
+        {
+          "name": "Whole Hog BBQ Grill",
+          "slug": "whole-hog-monster",
+          "capacity": "20-250kg/Session",
+          "image": "21445d_6930657f485146caa0da049ee2d1748a~mv2.jpg",
+          "description_sq": "Whole Hog BBQ Grill është furra jonë offset më e madhe e dizajnuar për kapacitet masiv tregtar."
+        }
+      ],
+      "description_sq": "Whole Hog është furra jonë offset më e madhe, e dizajnuar për operatorë tregtarë seriozë që kanë nevojë për kapacitet masiv pa kompromentuar shijen. E aftë për të tymosur derra të tërë, briskets të shumta ose sasi të mëdha brinjësh në një sesion të vetëm."
     }
   ],
   "individuals": [
@@ -122,7 +179,8 @@
       "category": "Gastronomy / Private Household",
       "capacity": "Compact",
       "image": "21445d_1f203d16ebd84bc197443a92aab88b29~mv2.jpg",
-      "description": "The Compact Smoker XXS is a space-efficient smoking solution perfect for small kitchens, pop-up restaurants, and private households with limited space."
+      "description": "The Compact Smoker XXS is a space-efficient smoking solution perfect for small kitchens, pop-up restaurants, and private households with limited space.",
+      "description_sq": "Compact Smoker XXS është një zgjidhje efikase për tymosje, perfekte për kuzhina të vogla, restorante pop-up dhe familje private me hapësirë të kufizuar."
     },
     {
       "slug": "compact-smoker-xxs-plus",
@@ -130,7 +188,8 @@
       "category": "Gastronomy",
       "capacity": "Compact",
       "image": "21445d_fb5d55edbf3a413b8291d8928ef38c54~mv2.jpg",
-      "description": "The Compact Smoker XXS Plus offers additional capacity over the XXS model while maintaining a compact footprint."
+      "description": "The Compact Smoker XXS Plus offers additional capacity over the XXS model while maintaining a compact footprint.",
+      "description_sq": "Compact Smoker XXS Plus ofron kapacitet shtesë në krahasim me modelin XXS duke ruajtur një gjurmë kompakte."
     },
     {
       "slug": "compact-smoker-xs",
@@ -138,7 +197,8 @@
       "category": "Gastronomy / Private Household",
       "capacity": "Small",
       "image": "21445d_d0c21147abfc4413923a0555319f4163~mv2.jpg",
-      "description": "The Compact Smoker XS bridges the gap between compact and standard capacity, ideal for growing businesses."
+      "description": "The Compact Smoker XS bridges the gap between compact and standard capacity, ideal for growing businesses.",
+      "description_sq": "Compact Smoker XS mbush hendekun midis kapacitetit kompakt dhe standard, ideal për bizneset në rritje."
     },
     {
       "slug": "compact-smoker-s",
@@ -146,7 +206,8 @@
       "category": "Gastronomy",
       "capacity": "Small",
       "image": "21445d_abaf08b617c742f7944fca95dfbf1cc6~mv2.jpg",
-      "description": "The Compact Smoker Size S is designed for serious gastronomy operations that need consistent output."
+      "description": "The Compact Smoker Size S is designed for serious gastronomy operations that need consistent output.",
+      "description_sq": "Compact Smoker Size S është dizajnuar për operacione serioze gastronomie që kanë nevojë për prodhim të qëndrueshëm."
     },
     {
       "slug": "smoker-size-s",
@@ -154,7 +215,8 @@
       "category": "Gastronomy / Private Household",
       "capacity": "Small",
       "image": "21445d_09eb6048637742279fb0e04881e83037~mv2.jpg",
-      "description": "The BBQ Pit Box Smoker Size S offers versatile smoking capabilities in a mid-sized package."
+      "description": "The BBQ Pit Box Smoker Size S offers versatile smoking capabilities in a mid-sized package.",
+      "description_sq": "BBQ Pit Box Smoker Size S ofron aftësi të gjithanshme tymosjeje në një paketë të madhësisë së mesme."
     },
     {
       "slug": "duck-oven-xs",
@@ -162,7 +224,8 @@
       "category": "Gastronomy / Brat und Backöfen",
       "capacity": "Compact",
       "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
-      "description": "The Duck Oven XS specializes in duck, poultry, and roasting applications in a compact form."
+      "description": "The Duck Oven XS specializes in duck, poultry, and roasting applications in a compact form.",
+      "description_sq": "Duck Oven XS specializohet në rosë, shpendë dhe pjekje në një formë kompakte."
     },
     {
       "slug": "duck-oven-xs-plus",
@@ -170,7 +233,8 @@
       "category": "Brat und Backöfen",
       "capacity": "Compact",
       "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
-      "description": "The Duck Oven XS Plus provides additional roasting capacity while maintaining precision temperature control."
+      "description": "The Duck Oven XS Plus provides additional roasting capacity while maintaining precision temperature control.",
+      "description_sq": "Duck Oven XS Plus ofron kapacitet shtesë pjekjeje duke ruajtur kontrollin e saktë të temperaturës."
     },
     {
       "slug": "duck-oven-s",
@@ -178,7 +242,8 @@
       "category": "Brat und Backöfen",
       "capacity": "Small",
       "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
-      "description": "The Duck Oven Size S is built for medium-volume roasting with consistent, even heat."
+      "description": "The Duck Oven Size S is built for medium-volume roasting with consistent, even heat.",
+      "description_sq": "Duck Oven Size S është ndërtuar për pjekje të vëllimit të mesëm me nxehtësi të qëndrueshme dhe të barabartë."
     },
     {
       "slug": "duck-oven-m",
@@ -186,7 +251,8 @@
       "category": "Brat und Backöfen",
       "capacity": "Medium",
       "image": "21445d_97670ee4e6684960a6f8cd7e0d523415~mv2.jpg",
-      "description": "The Duck Oven Size M handles higher volumes while maintaining the signature roasting quality."
+      "description": "The Duck Oven Size M handles higher volumes while maintaining the signature roasting quality.",
+      "description_sq": "Duck Oven Size M trajton vëllime më të larta duke ruajtur cilësinë karakteristike të pjekjes."
     },
     {
       "slug": "duck-oven-l",
@@ -194,7 +260,8 @@
       "category": "Offset BBQ & Grill / Brat und Backöfen",
       "capacity": "Large",
       "image": "21445d_2c916d561a7f41c49e104bc5b6eda1b7~mv2.jpg",
-      "description": "The Duck Oven Size L is our largest roasting oven, capable of handling whole pigs and large catering orders."
+      "description": "The Duck Oven Size L is our largest roasting oven, capable of handling whole pigs and large catering orders.",
+      "description_sq": "Duck Oven Size L është furra jonë më e madhe e pjekjes, e aftë për të trajtuar derra të tërë dhe porosi të mëdha katering."
     },
     {
       "slug": "yakitori-bbq-grill-s",
@@ -202,7 +269,8 @@
       "category": "Gastronomy / Offset BBQ & Grill",
       "capacity": "Small",
       "image": "21445d_9805bab527054ce7ab357cd187945ac7~mv2.jpg",
-      "description": "The Yakitori BBQ Grill Size S brings traditional Japanese yakitori grilling to your kitchen or events."
+      "description": "The Yakitori BBQ Grill Size S brings traditional Japanese yakitori grilling to your kitchen or events.",
+      "description_sq": "Yakitori BBQ Grill Size S sjell pjekjen tradicionale japoneze yakitori në kuzhinën ose eventet tuaja."
     },
     {
       "slug": "yakitori-bbq-grill-m",
@@ -210,7 +278,8 @@
       "category": "Gastronomy",
       "capacity": "Medium",
       "image": "21445d_e1bc5dce777d47b68f0f78d7c329475e~mv2.jpg",
-      "description": "The Yakitori BBQ Grill Size M offers larger capacity for high-volume yakitori service."
+      "description": "The Yakitori BBQ Grill Size M offers larger capacity for high-volume yakitori service.",
+      "description_sq": "Yakitori BBQ Grill Size M ofron kapacitet më të madh për shërbim yakitori me vëllim të lartë."
     },
     {
       "slug": "yakitori-bbq-grill-l",
@@ -218,7 +287,8 @@
       "category": "Offset BBQ & Grill",
       "capacity": "Large",
       "image": "21445d_4d93ecb1811d489fa9f18708b2051d3f~mv2.jpg",
-      "description": "The Yakitori BBQ Grill Size L is built for commercial operations with maximum skewer capacity."
+      "description": "The Yakitori BBQ Grill Size L is built for commercial operations with maximum skewer capacity.",
+      "description_sq": "Yakitori BBQ Grill Size L është ndërtuar për operacione tregtare me kapacitet maksimal hellash."
     },
     {
       "slug": "nyp-regular-offset-xs",
@@ -226,7 +296,8 @@
       "category": "Private Household / Offset BBQ & Grill",
       "capacity": "8-20kg/Session",
       "image": "21445d_04c5a954f52846448a0cfdf18a9eb23d~mv2.webp",
-      "description": "The NYP Regular Offset XS is the entry-level offset smoker for enthusiasts who want authentic offset flavor."
+      "description": "The NYP Regular Offset XS is the entry-level offset smoker for enthusiasts who want authentic offset flavor.",
+      "description_sq": "NYP Regular Offset XS është furra offset hyrëse për entuziastët që duan shije autentike offset."
     },
     {
       "slug": "nyp-regular-offset-s",
@@ -234,7 +305,8 @@
       "category": "Private Household / Offset BBQ & Grill",
       "capacity": "20-60kg/Session",
       "image": "21445d_1f3c5563b9264be6af2e20f5128edbe2~mv2.webp",
-      "description": "The NYP Regular Offset S steps up capacity while maintaining precise temperature control."
+      "description": "The NYP Regular Offset S steps up capacity while maintaining precise temperature control.",
+      "description_sq": "NYP Regular Offset S rrit kapacitetin duke ruajtur kontrollin e saktë të temperaturës."
     },
     {
       "slug": "whole-hog-monster",
@@ -242,7 +314,8 @@
       "category": "Offset BBQ & Grill",
       "capacity": "20-250kg/Session",
       "image": "21445d_6930657f485146caa0da049ee2d1748a~mv2.jpg",
-      "description": "The Whole Hog BBQ Grill is our largest offset smoker designed for massive commercial capacity."
+      "description": "The Whole Hog BBQ Grill is our largest offset smoker designed for massive commercial capacity.",
+      "description_sq": "Whole Hog BBQ Grill është furra jonë offset më e madhe e dizajnuar për kapacitet masiv tregtar."
     }
   ]
 }

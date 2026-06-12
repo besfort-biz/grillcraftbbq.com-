@@ -18,7 +18,19 @@ NAV = {
         "footer_nav": "Navigation", "footer_prod": "Products",
         "footer_legal": "Legal", "footer_contact": "Contact",
         "country": "Switzerland", "city": "Winterthur",
-        "lang_en": "EN", "lang_fr": "FR", "lang_it": "IT"
+        "lang_en": "EN", "lang_sq": "SQ", "lang_fr": "FR", "lang_it": "IT"
+    },
+    "sq": {
+        "home": "Kryefaqja", "products": "Produktet", "gastro": "Gastronomi",
+        "private": "Familje Private", "cabinet": "Oxhak Kabineti",
+        "offset": "Offset BBQ &amp; Grill", "brat": "Brat und Backöfen",
+        "catering": "Katering", "about": "Rreth Nesh", "contact": "Kontakt",
+        "privacy": "Politika e Privatësisë", "shipping": "Transporti &amp; Kthimet",
+        "store": "Politika e Dyqanit", "imprint": "Impressum",
+        "footer_nav": "Navigimi", "footer_prod": "Produktet",
+        "footer_legal": "Ligjore", "footer_contact": "Kontakt",
+        "country": "Zvicra", "city": "Winterthur",
+        "lang_en": "EN", "lang_sq": "SQ", "lang_fr": "FR", "lang_it": "IT"
     },
     "fr": {
         "home": "Domicile", "products": "Des Produits", "gastro": "La Gastronomie",
@@ -30,7 +42,7 @@ NAV = {
         "footer_nav": "Navigation", "footer_prod": "Produits",
         "footer_legal": "Légal", "footer_contact": "Contacter",
         "country": "Suisse", "city": "Winterthour",
-        "lang_en": "EN", "lang_fr": "FR", "lang_it": "IT"
+        "lang_en": "EN", "lang_sq": "SQ", "lang_fr": "FR", "lang_it": "IT"
     },
     "it": {
         "home": "Casa", "products": "Prodotti", "gastro": "Gastronomia",
@@ -42,8 +54,16 @@ NAV = {
         "footer_nav": "Navigazione", "footer_prod": "Prodotti",
         "footer_legal": "Legale", "footer_contact": "Contatto",
         "country": "Svizzera", "city": "Winterthur",
-        "lang_en": "EN", "lang_fr": "FR", "lang_it": "IT"
+        "lang_en": "EN", "lang_sq": "SQ", "lang_fr": "FR", "lang_it": "IT"
     }
+}
+
+# Product page labels per language
+PROD_LABELS = {
+    "en": {"out_of_stock": "Out of stock", "more_info": "More Info", "models": "Models", "category": "Category:", "capacity": "Capacity:"},
+    "sq": {"out_of_stock": "Mungon në stok", "more_info": "Më Shumë Info", "models": "Modelet", "category": "Kategoria:", "capacity": "Kapaciteti:"},
+    "fr": {"out_of_stock": "Out of stock", "more_info": "More Info", "models": "Models", "category": "Category:", "capacity": "Capacity:"},
+    "it": {"out_of_stock": "Out of stock", "more_info": "More Info", "models": "Models", "category": "Category:", "capacity": "Capacity:"},
 }
 
 SITE_NAME = "GrillCraft BBQ"
@@ -76,7 +96,7 @@ def nav_header(lang, active_path, active_lang):
 <a href="/{lang}/uber-uns" class="dropbtn">{t["about"]}</a>
 <div class="dropdown-content"><a href="/{lang}/contact">{t["contact"]}</a></div>
 </div>
-<div class="lang-switcher">{l("en", "en")}{l("fr", "fr")}{l("it", "it")}</div>
+<div class="lang-switcher">{l("en", "en")}{l("sq", "sq")}{l("fr", "fr")}{l("it", "it")}</div>
 </nav></div></header>'''
 
 def footer(lang):
@@ -116,12 +136,18 @@ def page_template(lang, title, desc, content, active_lang):
 <script src="/assets/js/script.js"></script>
 </body></html>'''
 
+def get_desc(obj, lang):
+    if lang == "sq":
+        return obj.get("description_sq") or obj["description"]
+    return obj["description"]
+
 def build_series_page(lang, s, active_lang):
     img_url = f"{IMG_BASE}{s['image']}"
     badge_html = f'<div class="badge">{s["badge"]}</div>' if s["badge"] else ""
+    pl = PROD_LABELS.get(lang, PROD_LABELS["en"])
     variants_html = ""
     if s["variants"]:
-        variants_html = '<div class="grid-2" style="margin-top:30px"><h3 style="grid-column:1/-1">Models</h3>'
+        variants_html = f'<div class="grid-2" style="margin-top:30px"><h3 style="grid-column:1/-1">{pl["models"]}</h3>'
         for v in s["variants"]:
             vimg = f"{IMG_BASE}{v['image']}"
             variants_html += f'''
@@ -129,12 +155,13 @@ def build_series_page(lang, s, active_lang):
 <img src="{vimg}" alt="{v['name']}" loading="lazy">
 <div class="prod-card-body">
 <h3>{v['name']}</h3>
-<div class="badge" style="font-size:14px;color:var(--text-light);margin:8px 0">Out of stock</div>
-<a href="/{lang}/product-page/{v['slug']}" class="btn btn-sm">More Info</a>
+<div class="badge" style="font-size:14px;color:var(--text-light);margin:8px 0">{pl["out_of_stock"]}</div>
+<a href="/{lang}/product-page/{v['slug']}" class="btn btn-sm">{pl["more_info"]}</a>
 </div>
 </div>'''
         variants_html += "</div>"
 
+    desc = get_desc(s, lang)
     content = f'''
 <div class="breadcrumb"><a href="/{lang}/">{NAV[lang]["home"]}</a> <span>/ <a href="/{lang}/produkte">{NAV[lang]["products"]}</a> / {s['name']}</span></div>
 <div class="prod-detail">
@@ -143,9 +170,9 @@ def build_series_page(lang, s, active_lang):
 {badge_html}
 <h1>{s['name']}</h1>
 <p style="font-size:1.1rem;color:var(--text-light);margin:8px 0">{s['tagline']}</p>
-<div class="badge" style="font-size:14px;color:var(--text-light);margin:8px 0">Out of stock</div>
-<div class="desc"><p>{s['description']}</p></div>
-<div class="meta"><p><strong>Category:</strong> {s['category']}</p><p><strong>Capacity:</strong> {s['capacity']}</p></div>
+<div class="badge" style="font-size:14px;color:var(--text-light);margin:8px 0">{pl["out_of_stock"]}</div>
+<div class="desc"><p>{desc}</p></div>
+<div class="meta"><p><strong>{pl["category"]}</strong> {s['category']}</p><p><strong>{pl["capacity"]}</strong> {s['capacity']}</p></div>
 </div>
 </div>
 {variants_html}'''
@@ -153,15 +180,17 @@ def build_series_page(lang, s, active_lang):
 
 def build_individual_page(lang, p, active_lang):
     img_url = f"{IMG_BASE}{p['image']}"
+    pl = PROD_LABELS.get(lang, PROD_LABELS["en"])
+    desc = get_desc(p, lang)
     content = f'''
 <div class="breadcrumb"><a href="/{lang}/">{NAV[lang]["home"]}</a> <span>/ <a href="/{lang}/produkte">{NAV[lang]["products"]}</a> / {p['name']}</span></div>
 <div class="prod-detail">
 <div><img src="{img_url}" alt="{p['name']}" loading="lazy"></div>
 <div>
 <h1>{p['name']}</h1>
-<div class="badge" style="font-size:14px;color:var(--text-light);margin:8px 0">Out of stock</div>
-<div class="desc"><p>{p['description']}</p></div>
-<div class="meta"><p><strong>Category:</strong> {p['category']}</p><p><strong>Capacity:</strong> {p['capacity']}</p></div>
+<div class="badge" style="font-size:14px;color:var(--text-light);margin:8px 0">{pl["out_of_stock"]}</div>
+<div class="desc"><p>{desc}</p></div>
+<div class="meta"><p><strong>{pl["category"]}</strong> {p['category']}</p><p><strong>{pl["capacity"]}</strong> {p['capacity']}</p></div>
 </div>
 </div>'''
     return content
@@ -170,7 +199,7 @@ def main():
     with open(os.path.join(BASE, "products.json")) as f:
         data = json.load(f)
 
-    for lang in ["en", "fr", "it"]:
+    for lang in ["en", "sq", "fr", "it"]:
         pp_dir = os.path.join(BASE, lang, "product-page")
         os.makedirs(pp_dir, exist_ok=True)
 
@@ -181,26 +210,39 @@ def main():
         for s in data["series"]:
             content = build_series_page(lang, s, active_lang)
             title = s["name"]
-            desc = s["description"][:150]
+            desc = get_desc(s, lang)[:150]
             html = page_template(lang, title, desc, content, active_lang)
-            path = os.path.join(pp_dir, f"{s['slug']}.html")
+            slug_dir = os.path.join(pp_dir, s['slug'])
+            os.makedirs(slug_dir, exist_ok=True)
+            path = os.path.join(slug_dir, "index.html")
             with open(path, "w") as f:
                 f.write(html)
             print(f"  Created: {path}")
 
             # Generate variant pages for this series
             for v in s["variants"]:
+                if lang == "sq":
+                    v_desc_sq = v.get("description_sq")
+                    if v_desc_sq:
+                        v_desc = v_desc_sq
+                    else:
+                        s_desc_sq = s.get("description_sq", s["description"])
+                        v_desc = f"{v['name']} është një model nga seria {s['name']}. {s_desc_sq}"
+                else:
+                    v_desc = f"The {v['name']} is a model from the {s['name']} series. {s['description']}"
                 individual_data = {
                     "slug": v["slug"],
                     "name": v["name"],
                     "category": s["category"],
                     "capacity": v["capacity"],
                     "image": v["image"] if v["image"] else s["image"],
-                    "description": f"The {v['name']} is a model from the {s['name']} series. {s['description']}"
+                    "description": v_desc
                 }
                 content = build_individual_page(lang, individual_data, active_lang)
                 html = page_template(lang, v["name"], individual_data["description"][:150], content, active_lang)
-                path = os.path.join(pp_dir, f"{v['slug']}.html")
+                slug_dir = os.path.join(pp_dir, v['slug'])
+                os.makedirs(slug_dir, exist_ok=True)
+                path = os.path.join(slug_dir, "index.html")
                 with open(path, "w") as f:
                     f.write(html)
                 print(f"  Created: {path}")
@@ -208,8 +250,10 @@ def main():
         # Generate individual product pages
         for p in data["individuals"]:
             content = build_individual_page(lang, p, active_lang)
-            html = page_template(lang, p["name"], p["description"][:150], content, active_lang)
-            path = os.path.join(pp_dir, f"{p['slug']}.html")
+            html = page_template(lang, p["name"], get_desc(p, lang)[:150], content, active_lang)
+            slug_dir = os.path.join(pp_dir, p['slug'])
+            os.makedirs(slug_dir, exist_ok=True)
+            path = os.path.join(slug_dir, "index.html")
             with open(path, "w") as f:
                 f.write(html)
             print(f"  Created: {path}")
